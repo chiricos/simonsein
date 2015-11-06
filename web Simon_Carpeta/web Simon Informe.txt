@@ -1,0 +1,91 @@
+Informe del paquete
+
+-----------------------------------------------------------------------------
+Documento:
+Nombre: web Simon.ai
+Modo de color: Color RGB
+Perfil de color: sRGB IEC61966-2.1
+Unidades de regla: p’xeles
+Dimensiones de la mesa de trabajo: 1920 px x 1080 px
+Mostrar im‡genes en modo contorno: Desactivado
+Resaltar fuentes sustituidas: Desactivado
+Resaltar glifos sustituidos: Desactivado
+Conservar capacidad de edici—n de texto
+Simular papel de color: Desactivado
+
+-----------------------------------------------------------------------------
+Objetos de tintas planas:
+
+-----------------------------------------------------------------------------
+Fuentes no disponibles:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes protegidas no empaquetadas:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes:
+Neou Bold (TrueType)
+
+-----------------------------------------------------------------------------
+Fuentes incrustadas:
+Ninguno
+
+-----------------------------------------------------------------------------
+Enlaces no disponibles:
+Ninguno
+
+-----------------------------------------------------------------------------
+Im‡genes enlazadas:
+
+/Usuarios/mac01/Escritorio/simon/imagenes/6989446-blue-city-wallpapers-background-hd.jpg
+Tipo: RGB
+Bits por p’xel: 24
+Canales: 3
+Tama–o: 6075K, 1920 por 1080 p’xeles
+Dimensiones: 1920 por 1080 puntos 
+Resoluci—n: 72 por 72 p’xeles por pulgada
+
+
+/Usuarios/mac01/Escritorio/simon/redes.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 231K, 445 por 133 p’xeles
+Dimensiones: 168,62 por 50,396 puntos 
+Resoluci—n: 190,013 por 190,013 p’xeles por pulgada
+
+
+/Usuarios/mac01/Escritorio/simon/imagenes/6989446-blue-city-wallpapers-background-hd.jpg
+Tipo: RGB
+Bits por p’xel: 24
+Canales: 3
+Tama–o: 6075K, 1920 por 1080 p’xeles
+Dimensiones: 1920 por 1080 puntos 
+Resoluci—n: 72 por 72 p’xeles por pulgada
+
+
+/Usuarios/mac01/Escritorio/simon/redes.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 231K, 445 por 133 p’xeles
+Dimensiones: 168,62 por 50,396 puntos 
+Resoluci—n: 190,013 por 190,013 p’xeles por pulgada
+
+
+/Usuarios/mac01/Escritorio/simon/redes.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 231K, 445 por 133 p’xeles
+Dimensiones: 168,62 por 50,396 puntos 
+Resoluci—n: 190,013 por 190,013 p’xeles por pulgada
+
+
+/Usuarios/mac01/Escritorio/simon/redes.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 231K, 445 por 133 p’xeles
+Dimensiones: 168,62 por 50,396 puntos 
+Resoluci—n: 190,013 por 190,013 p’xeles por pulgada
