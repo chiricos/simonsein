@@ -203,6 +203,7 @@ nav{
     display: none;
     height: 0;
     opacity: 0;
+    overflow: scroll;
     position: fixed;
     top: 60px;
     width: 100%;
@@ -312,17 +313,58 @@ CONTENIDO POR CUADRICULA
     background: #2a2a2a;
     display: inline-block;
     height: 100%;
+    overflow: scroll;
     width: 250px;
 }
 
 .content-body{
     background: #1C1C1C;
     display: inline-block;
-    min-height: 100%;
+    height: 100%;
     margin-left: -6px;
     overflow: scroll;
     vertical-align: top;
     width:calc( 100% - 250px);
+}
+
+.content-body h1{
+    color: white;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.content-body-line{
+}
+
+.content-body-line > section{
+    display: inline-block;
+    margin-right: -4px;
+    text-align: center;
+    vertical-align: top;
+    width: 20%;
+}
+
+.content-body-line > section > figure{
+    margin: auto;
+    width: 90%;
+}
+
+.content-body-line > section > figure > img{
+    position: relative;
+}
+
+.content-body-line > section > figure > section{
+    background-color: rgba(35, 35, 35, 0.99);
+    height: 60px;
+    position: relative;
+    top: -50px;
+}
+
+.content-body-line > section > figure > section >p{
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px;
+    text-align: justify;
 }
 
 .content-sub-menu{
@@ -336,7 +378,7 @@ CONTENIDO POR CUADRICULA
 }
 
 .content-sub-menu figure img{
-    width: 80%;
+    width: 50%;
 }
 
 .content-sub-menu a{
@@ -349,7 +391,7 @@ CONTENIDO POR CUADRICULA
     line-height: 3;
     margin-top: -1px;
     padding-left: 25px;
-    width: 100%;
+    width: 90%;
 }
 
 .content-sub-menu a:hover{

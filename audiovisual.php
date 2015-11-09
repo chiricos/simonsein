@@ -18,19 +18,294 @@
             </div>
         </section>
         <section class="content-body">
-            <figure style="overflow: hidden; height: 250px;margin-top: 60px">
-                <img src="http://resources.wimpmusic.com/images/7f53e08b/9e07/4813/99cb/237388122847/2048x512.jpg" style="position: relative">
-                <p style="    position: absolute;
-    top: 200px;
-    font-size: 30px;
-    margin-left: 70px;
-    background-color: rgba(0, 0, 0, 0.28);
-    padding: 10px">PRODUCCIÓN AUDIOVISUAL</p>
-            </figure>
-            <div>
-                <figure>
-                    <img src="">
-                </figure>
+            <h1>PRODUCCIÓN AUDIOVISUAL</h1>
+            <div class="content-body-line">
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+            </div>
+            <div class="content-body-line">
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+            </div>
+            <div class="content-body-line">
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+            </div>
+            <div class="content-body-line">
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+            </div>
+            <div class="content-body-line">
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+            </div>
+            <div class="content-body-line">
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+            </div>
+            <div class="content-body-line">
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+            </div>
+            <div class="content-body-line">
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+            </div>
+            <div class="content-body-line">
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="http://resources.wimpmusic.com/images/aed6c93e/3ab2/4bcb/9d05/ade630160d38/550x400.jpg">
+                        <section><p>proyecto1</p></section>
+                    </figure>
+                </section>
             </div>
         </section>
     </div>
