@@ -11,8 +11,8 @@
                         <img src="images/camara.png">
                     </a>
                 </figure>
-                <a href="reels.php" style="color: red">Reels</a>
-                <a href="motion.php">Video motion</a>
+                <a href="reels.php" >Reels</a>
+                <a href="motion.php" style="color: red">Video motion</a>
                 <a href="tv.php">Videos y comerciales tv</a>
                 <a href="fotografia.php">Fotografía</a>
                 <a href="multimedia.php">Multimedia</a>
@@ -20,9 +20,9 @@
             </div>
         </section>
         <section class="content-body">
-            <h1>REELS</h1>
+            <h1>VIDEO MOTION</h1>
 
-            <div class="pop-up-content pop-up-reels">
+            <div class="pop-up-content motion">
                 <span >x</span>
                 <figure>
                     <iframe id="VideoPlayer" width="800" height="450" src="https://www.youtube.com/embed/_wlMi6IUDdo" frameborder="0" allowfullscreen></iframe>
@@ -37,7 +37,7 @@
                 </section>
             </div>
 
-            <div class="content-body-line reels">
+            <div class="content-body-line motion">
                 <section>
                     <figure>
                         <img src="images/reels1.jpg">

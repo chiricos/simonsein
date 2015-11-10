@@ -178,6 +178,10 @@ header{
     width: 82%;
 }
 
+.social figure img:hover{
+    opacity: 0.6;
+}
+
 .menu{
     cursor: pointer;
     display: inline-block;

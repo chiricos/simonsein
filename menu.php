@@ -6,9 +6,9 @@
     </a>
     <div class="part-end">
         <section class="social">
-            <figure><a href="https://twitter.com/SimonSein_Ltda" target="_blank"><img src="http://simonsein.com/images/twitter.png"></a></figure>
-            <figure><a href="https://www.facebook.com/simon.sein.31?fref=ts" target="_blank"><img src="http://simonsein.com/images/facebook.png"></a></figure>
-            <figure><a href="https://www.youtube.com/channel/UC5cDmU27ooIA5i-vbiey71g" target="_blank"><img src="http://simonsein.com/images/youtube.png"></a></figure>
+            <figure><a href="https://twitter.com/SimonSein_Ltda" target="_blank"><img src="images/twitter.png"></a></figure>
+            <figure><a href="https://www.facebook.com/simon.sein.31?fref=ts" target="_blank"><img src="images/facebook.png"></a></figure>
+            <figure><a href="https://www.youtube.com/channel/UC5cDmU27ooIA5i-vbiey71g" target="_blank"><img src="images/youtube.png"></a></figure>
         </section>
         <section class="menu">
             <div class="figu-menu">
@@ -46,9 +46,9 @@
             <li><span class="lapiz"></span><a href=""> Quienes somos</a></li>
             <li><span class="buzon"></span><a href=""> Contacto</a></li>
             <section class="social" id="social">
-                <figure><a href="https://twitter.com/SimonSein_Ltda" target="_blank"><img src="http://simonsein.com/images/twitter.png"></a></figure>
-                <figure><a href="https://www.facebook.com/simon.sein.31?fref=ts" target="_blank"><img src="http://simonsein.com/images/facebook.png"></a></figure>
-                <figure><a href="https://www.youtube.com/channel/UC5cDmU27ooIA5i-vbiey71g" target="_blank"><img src="http://simonsein.com/images/youtube.png"></a></figure>
+                <figure><a href="https://twitter.com/SimonSein_Ltda" target="_blank"><img src="images/twitter.png"></a></figure>
+                <figure><a href="https://www.facebook.com/simon.sein.31?fref=ts" target="_blank"><img src="images/facebook.png"></a></figure>
+                <figure><a href="https://www.youtube.com/channel/UC5cDmU27ooIA5i-vbiey71g" target="_blank"><img src="images/youtube.png"></a></figure>
             </section>
         </section>
     </ul>
