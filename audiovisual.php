@@ -7,14 +7,16 @@
         <section class="content-menu">
             <div class="content-sub-menu">
                 <figure>
-                    <img src="images/pc-hover.png">
+                    <a href="audiovisual.php">
+                        <img src="images/camara.png">
+                    </a>
                 </figure>
-                <a>Reels</a>
-                <a>Video motion</a>
-                <a>Videos y comerciales tv</a>
-                <a>Fotografía</a>
-                <a>Multimedia</a>
-                <a>Animación y 3d</a>
+                <a href="reels.php">Reels</a>
+                <a href="motion.php">Video motion</a>
+                <a href="tv.php">Videos y comerciales tv</a>
+                <a href="fotografia.php">Fotografía</a>
+                <a href="multimedia.php">Multimedia</a>
+                <a href="animacion.php">Animación y 3d</a>
             </div>
         </section>
         <section class="content-body">

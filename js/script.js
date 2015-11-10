@@ -49,7 +49,6 @@ $(document).on('ready',function()
         if(i==0)
         {
             $('nav').css({display:'block'});
-            console.log('entro');
             $( "nav" ).animate({
                 opacity: 1,
                 height: "100%"
@@ -69,5 +68,34 @@ $(document).on('ready',function()
         }
 
    });
+
+    /*============================
+    * REELS
+    *========================== */
+
+    $('.pop-up-content span').on('click',function()
+    {
+        $( ".pop-up-content" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer').src='';
+        });
+
+    });
+
+    $('.content-body-line > section:nth-of-type(1)').on('click',function()
+    {
+        document.getElementById('VideoPlayer').src='https://www.youtube.com/embed/DTnrU6APzTA';
+        $('.pop-up-content').css({display:'block'});
+        $( ".pop-up-content" ).animate({
+            opacity: 1,
+            height: "500px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+
 
 });

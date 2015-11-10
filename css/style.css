@@ -110,6 +110,26 @@ HOME
     width: 100%;
 }
 
+.body-two{
+    background: url(http://simonsein.co/images/home1.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.body-three{
+    background-image: url(http://simonsein.co/images/4slide.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+
+}
+
+
 header{
     background: black;
     height: 60px;
@@ -253,14 +273,52 @@ nav a:hover{
 
 nav > ul > section > li > span{
     display: inline-block;
-    background: url("../images/pc.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0px 16px;
     height: 50px;
     margin-left: 10px;
     width: 50px;
 
+}
+
+.bombillo{
+    background: url("../images/bombillo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 16px;
+}
+
+.tv{
+    background: url("../images/tv.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 16px;
+}
+
+.camara{
+    background: url("../images/camara.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 16px;
+}
+
+.corazon{
+    background: url("../images/corazon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 16px;
+}
+
+.lapiz{
+    background: url("../images/lapiz.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 16px;
+}
+
+.buzon{
+    background: url("../images/buzon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 16px;
 }
 
 nav > ul > section > li > a{
@@ -345,12 +403,18 @@ CONTENIDO POR CUADRICULA
 }
 
 .content-body-line > section > figure{
+    cursor: pointer;
     margin: auto;
     width: 90%;
 }
 
 .content-body-line > section > figure > img{
     position: relative;
+    -webkit-filter: grayscale(100%);
+}
+
+.content-body-line > section > figure > img:hover{
+    -webkit-filter: grayscale(0%);
 }
 
 .content-body-line > section > figure > section{
@@ -381,10 +445,11 @@ CONTENIDO POR CUADRICULA
     width: 50%;
 }
 
-.content-sub-menu a{
+.content-sub-menu > a{
     background-color: #1F1E1E;
     border: 1px solid black;
     cursor: pointer;
+    color: white;
     display: block;
     font-weight: 100;
     height: 45px;
@@ -394,9 +459,51 @@ CONTENIDO POR CUADRICULA
     width: 90%;
 }
 
-.content-sub-menu a:hover{
+.content-sub-menu > a:hover{
     border-left: 5px solid white;
     text-decoration: underline;
+}
+
+.pop-up-content{
+    display: none;
+    height: 0;
+    opacity: 0;
+}
+
+.pop-up-content > span{
+    background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 26px;
+    height: 30px;
+    line-height: 1;
+    margin: 0 20px;
+    width: 30px;
+    text-align: center;
+}
+
+.pop-up-content > figure{
+    display: inline-block;
+    padding: 0px 50px 40px;
+    text-align: end;
+}
+
+.pop-up-content > section{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    width: calc(100% - 1000px);
+
+}
+
+.pop-up-content > section > h2{
+    line-height: 0;
+}
+
+.pop-up-content > section > p{
+    font-weight: 100;
 }
 
 /* =========================================
@@ -464,3 +571,9 @@ ANIMACIONES
         display: none;
     }
 }
+
+
+/*
+.content-body-line:nth-of-type(1) > section:nth-of-type(1){
+    display: none!important;
+}*/

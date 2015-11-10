@@ -2,9 +2,28 @@
 
 <div id="wrapper">
     <?php include('menu.php'); ?>
-<video id="video" autoplay="autoplay" preload="auto" loop="loop" >
-    <source src="images/fondo.mp4" type="video/mp4"></source>
-</video>
+    <?php
+        $i=rand(1, 3);
+        echo $i;
+        if($i==1)
+        {
+            ?>
+            <video id="video" autoplay="autoplay" preload="auto" loop="loop" >
+                    <source src="images/fondo.mp4" type="video/mp4" />
+            </video>
+    <?php
+        }if($i==2){
+        ?>
+            <div class="body-two"></div>
+        <?php
+        }if($i==3){
+        ?>
+        <div class="body-three"></div>
+        <?php
+    }
+    ?>
+
+
 </div>
 
 <?php include('footer.php'); ?>
