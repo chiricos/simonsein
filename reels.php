@@ -25,7 +25,7 @@
             <div class="pop-up-content pop-up-reels">
                 <span >x</span>
                 <figure>
-                    <iframe id="VideoPlayer" width="800" height="450" src="https://www.youtube.com/embed/_wlMi6IUDdo" frameborder="0" allowfullscreen></iframe>
+                    <iframe id="VideoPlayer" width="100%" height="450" src="https://www.youtube.com/embed/_wlMi6IUDdo" frameborder="0" allowfullscreen></iframe>
                 </figure>
                 <section>
                     <h2>Simon Sein Infográfico</h2>
