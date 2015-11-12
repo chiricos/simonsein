@@ -20,7 +20,7 @@
             </div>
         </section>
         <section class="content-body">
-            <h1>REELS</h1>
+            <h1>MULTIMEDIA</h1>
 
             <div class="pop-up-content pop-up-multimedia">
                 <span >x</span>
