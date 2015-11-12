@@ -402,7 +402,7 @@ CONTENIDO POR CUADRICULA
 
 .content-body-line > section{
     display: inline-block;
-    margin-right: -4px;
+    margin-right: -6px;
     text-align: center;
     vertical-align: top;
     width: 20%;
@@ -452,7 +452,8 @@ CONTENIDO POR CUADRICULA
 
 .content-sub-menu > a{
     background-color: #1F1E1E;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     cursor: pointer;
     color: white;
     display: block;
@@ -460,7 +461,7 @@ CONTENIDO POR CUADRICULA
     height: 45px;
     line-height: 3;
     margin-top: -1px;
-    padding-left: 25px;
+    padding-left: 18px;
     width: 90%;
 }
 
