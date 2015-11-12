@@ -376,8 +376,9 @@ CONTENIDO POR CUADRICULA
     background: #2a2a2a;
     display: inline-block;
     height: 100%;
+    margin-right: -6px;
     overflow: scroll;
-    width: 250px;
+    width: 210px;
 }
 
 .content-body{
@@ -387,7 +388,7 @@ CONTENIDO POR CUADRICULA
     margin-left: -6px;
     overflow: scroll;
     vertical-align: top;
-    width:calc( 100% - 250px);
+    width:calc( 100% - 210px);
 }
 
 .content-body h1{
