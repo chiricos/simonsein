@@ -492,13 +492,15 @@ CONTENIDO POR CUADRICULA
     display: inline-block;
     padding: 0px 50px 40px;
     text-align: end;
+    width: 50%;
 }
 
 .pop-up-content > section{
     display: inline-block;
+    margin-right: -6px;
     vertical-align: top;
     text-align: justify;
-    width: calc(100% - 1000px);
+    width: 35%;
 
 }
 
@@ -580,4 +582,11 @@ ANIMACIONES
 /*
 .content-body-line:nth-of-type(1) > section:nth-of-type(1){
     display: none!important;
+}
+
+.pop-up-motion:nth-of-type(5){
+    background: blue!important;
+    display: block!important;
+    height: 500px!important;
+    opacity: 1!important;
 }*/
