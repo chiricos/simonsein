@@ -40,26 +40,20 @@
             <div class="content-body-line video">
                 <section>
                     <figure>
-                        <img src="images/reels1.jpg">
-                        <section><p>Simon Sein Infográfico</p></section>
+                        <img src="images/tv/tv1.jpg">
+                        <section><p>Ambiental Colsubsidio</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/reels2.jpg">
-                        <section><p>Reels Simon Sein Branding</p></section>
+                        <img src="images/tv/tv2.jpg">
+                        <section><p>Piscilago</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/reels3.jpg">
-                        <section><p>Reels Simon Sein Websites</p></section>
-                    </figure>
-                </section>
-                <section>
-                    <figure>
-                        <img src="images/reels4.jpg">
-                        <section><p>Reels Simon Sein Video Alta</p></section>
+                        <img src="images/tv/tv3.jpg">
+                        <section><p>Stop Hoteles</p></section>
                     </figure>
                 </section>
             </div>
