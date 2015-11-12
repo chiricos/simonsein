@@ -95,7 +95,7 @@ $(document).on('ready',function()
         $('.pop-up-reels').css({display:'block'});
         $( ".pop-up-reels" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -110,7 +110,7 @@ $(document).on('ready',function()
         $('.pop-up-reels').css({display:'block'});
         $( ".pop-up-reels" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -125,7 +125,7 @@ $(document).on('ready',function()
         $('.pop-up-reels').css({display:'block'});
         $( ".pop-up-reels" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -140,7 +140,7 @@ $(document).on('ready',function()
         $('.pop-up-reels').css({display:'block'});
         $( ".pop-up-reels" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -182,7 +182,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(1)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(1)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -198,7 +198,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(1)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(1)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -214,7 +214,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(1)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(1)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -230,7 +230,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(1)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(1)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -246,7 +246,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(1)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(1)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -268,7 +268,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(3)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(3)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -284,7 +284,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(3)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(3)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -300,7 +300,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(3)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(3)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -316,7 +316,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(3)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(3)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -332,7 +332,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(3)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(3)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -352,7 +352,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(5)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(5)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -367,7 +367,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(5)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(5)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -382,7 +382,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(5)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(5)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -397,7 +397,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(5)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(5)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -412,7 +412,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(5)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(5)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });
@@ -431,7 +431,7 @@ $(document).on('ready',function()
         $('.pop-up-motion:nth-of-type(7)').css({display:'block'});
         $( ".pop-up-motion:nth-of-type(7)" ).animate({
             opacity: 1,
-            height: "500px"
+            height: "320px"
         }, 1000, function() {
             $(this).css({display:'block'});
         });

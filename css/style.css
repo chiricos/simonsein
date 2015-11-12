@@ -144,7 +144,7 @@ header{
     cursor: pointer;
     display: inline-block;
     margin-left: 3px;
-    padding: 12px 60px;
+    padding: 12px 40px;
     width: 120px;
     height: 100%;
 }
@@ -425,7 +425,6 @@ CONTENIDO POR CUADRICULA
 
 .content-body-line > section > figure > section{
     background-color: rgba(35, 35, 35, 0.99);
-    height: 60px;
     position: relative;
     top: -50px;
 }
@@ -486,15 +485,22 @@ CONTENIDO POR CUADRICULA
     height: 30px;
     line-height: 1;
     margin: 0 20px;
+    position: relative;
     width: 30px;
     text-align: center;
 }
 
 .pop-up-content > figure{
     display: inline-block;
+    height: 300px;
     padding: 0px 50px 40px;
     text-align: end;
-    width: 50%;
+    width: 45%;
+}
+
+.pop-up-content > figure > #VideoPlayer,.pop-up-content > figure > #VideoPlayer1,.pop-up-content > figure > #VideoPlayer3,.pop-up-content > figure > #VideoPlayer5,.pop-up-content > figure > #VideoPlayer7{
+    height: 100%;
+    width: 100%;
 }
 
 .pop-up-content > section{
@@ -512,6 +518,7 @@ CONTENIDO POR CUADRICULA
 
 .pop-up-content > section > p{
     font-weight: 100;
+    font-size: 11px;
 }
 
 /* =========================================
