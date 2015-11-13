@@ -26,11 +26,11 @@
             <li><span class="camara"></span><a href="audiovisual.php">Producción audiovisual </a></li>
             <ul class="sub-menu">
                 <li><a href="reels.php">Reels </a></li>
-                <li><a href="">Video Motion</a></li>
-                <li><a href="">Videos comerciales y tv</a></li>
-                <li><a href="">Fotografía</a></li>
-                <li><a href="">Multimedia</a></li>
-                <li><a href="">Animación y 3d</a></li>
+                <li><a href="motion.php">Video Motion</a></li>
+                <li><a href="tv.php">Videos comerciales y tv</a></li>
+                <li><a href="fotografia.php">Fotografía</a></li>
+                <li><a href="multimedia.php">Multimedia</a></li>
+                <li><a href="animacion.php">Animación y 3d</a></li>
             </ul>
             <li><span class="bombillo"></span><a href="">Campañas publicitarias ATL y BTL</a></li>
             <li><span class="corazon"></span><a href="">Clientes</a></li>
