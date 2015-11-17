@@ -499,7 +499,8 @@ CONTENIDO POR CUADRICULA
     width: 45%;
 }
 
-.pop-up-content > figure > #VideoPlayer,.pop-up-content > figure > #VideoPlayer1,.pop-up-content > figure > #VideoPlayer3,.pop-up-content > figure > #VideoPlayer5,.pop-up-content > figure > #VideoPlayer7{
+
+.pop-up-content > figure > iframe,.pop-up-content > figure > img{
     height: 100%;
     width: 100%;
 }
@@ -600,3 +601,5 @@ ANIMACIONES
     height: 500px!important;
     opacity: 1!important;
 }*/
+
+
