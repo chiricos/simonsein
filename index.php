@@ -14,7 +14,9 @@
     <?php
         }if($i==2){
         ?>
-            <div class="body-two"></div>
+        <video id="video" autoplay="autoplay" preload="auto" loop="loop" >
+            <source src="images/fondo1.mp4" type="video/mp4" />
+        </video>
         <?php
         }if($i==3){
         ?>
