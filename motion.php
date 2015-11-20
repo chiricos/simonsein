@@ -13,10 +13,10 @@
                 </figure>
                 <a href="reels.php" >Reels</a>
                 <a href="motion.php" style="color: red">Video motion</a>
-                <a href="tv.php">Videos y comerciales tv</a>
+                <a href="tv.php">Videos y comerciales TV</a>
                 <a href="fotografia.php">Fotografía</a>
                 <a href="multimedia.php">Multimedia</a>
-                <a href="animacion.php">Animación y 3d</a>
+                <a href="animacion.php">Animación y 3D</a>
             </div>
         </section>
         <section class="content-body">

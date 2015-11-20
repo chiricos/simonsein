@@ -27,10 +27,10 @@
             <ul class="sub-menu">
                 <li><a href="reels.php">Reels </a></li>
                 <li><a href="motion.php">Video Motion</a></li>
-                <li><a href="tv.php">Videos comerciales y tv</a></li>
+                <li><a href="tv.php">Videos comerciales y TV</a></li>
                 <li><a href="fotografia.php">Fotografía</a></li>
                 <li><a href="multimedia.php">Multimedia</a></li>
-                <li><a href="animacion.php">Animación y 3d</a></li>
+                <li><a href="animacion.php">Animación y 3D</a></li>
             </ul>
             <li><span class="bombillo"></span><a href="">Campañas publicitarias ATL y BTL</a></li>
             <li><span class="corazon"></span><a href="">Clientes</a></li>
@@ -44,7 +44,7 @@
                 <li><a href="">Desarrollo web</a></li>
             </ul>
             <li><span class="lapiz"></span><a href=""> Quienes somos</a></li>
-            <li><span class="buzon"></span><a href=""> Contacto</a></li>
+            <li><span class="buzon"></span><a href="contacto.php"> Contacto</a></li>
             <section class="social" id="social">
                 <figure><a href="https://twitter.com/SimonSein_Ltda" target="_blank"><img src="images/twitter.png"></a></figure>
                 <figure><a href="https://www.facebook.com/simon.sein.31?fref=ts" target="_blank"><img src="images/facebook.png"></a></figure>

@@ -225,7 +225,7 @@ header{
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-repeat:no-repeat;
     background-size: cover;
     transition: 1s opacity;
 }
@@ -528,6 +528,72 @@ CONTENIDO POR CUADRICULA
 .pop-up-content > section > p{
     font-weight: 100;
     font-size: 11px;
+}
+
+/* =========================================
+Contacto
+*=========================================*/
+
+#contact{
+    margin: 70px auto;
+    width: 80%;
+}
+
+form{
+    background: #333333;
+    display: inline-block;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    width: 48%;
+}
+
+form label{
+    display: block;
+    margin:10px auto;
+    text-align: justify;
+    width: 90%;
+}
+
+form input{
+    margin: 10px auto;
+    height: 30px;
+    width: 90%;
+
+}
+
+form textarea{
+    height: 100px;
+    width: 90%;
+}
+
+input[type="submit"]{
+    border: none;
+    background-color: #c4261e;
+    color: rgb(220, 218, 218);
+    font-size: 24px;
+    height: 50px;
+    margin-bottom: 20px;
+    width: 91%;
+}
+
+input[type="submit"]:hover{
+    background: rgba(196, 38, 30, 0.69);
+    color: white;
+}
+
+#data-simon{
+    background: #333333;
+    display: inline-block;
+    float: right;
+    margin-left: -5px;
+    width: 48%;
+}
+
+#data-simon p{
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
 }
 
 /* =========================================
