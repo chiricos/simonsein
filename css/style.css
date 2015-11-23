@@ -651,6 +651,19 @@ Clientes
     color: white;
 }
 
+.wrapper-client section{
+    background: #333333;
+    display: inline-block;
+    height: 200px;
+    text-align: center;
+    vert-align: top;
+    width: 23%;
+}
+
+.wrapper-client > a > section > figure > img{
+    width: 50%;
+}
+
 /* =========================================
 ANIMACIONES
 *=========================================*/
