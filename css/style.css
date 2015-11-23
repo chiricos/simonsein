@@ -385,7 +385,7 @@ CONTENIDO POR CUADRICULA
     height: 100%;
     margin-right: -6px;
     overflow: scroll;
-    width: 210px;
+    width: 250px;
 }
 
 .content-body{
@@ -395,7 +395,7 @@ CONTENIDO POR CUADRICULA
     margin-left: -6px;
     overflow: scroll;
     vertical-align: top;
-    width:calc( 100% - 210px);
+    width:calc( 100% - 250px);
 }
 
 .content-body h1{
@@ -543,6 +543,7 @@ form{
     background: #333333;
     display: inline-block;
     float: left;
+    margin-bottom: 40px;
     padding-top: 10px;
     text-align: center;
     width: 48%;
@@ -553,6 +554,16 @@ form label{
     margin:10px auto;
     text-align: justify;
     width: 90%;
+}
+
+form p{
+    color: red;
+    font-size: 12px;
+    font-weight: 100;
+    margin: auto;
+    text-align: justify;
+    width: 90%;
+
 }
 
 form input{
@@ -594,6 +605,10 @@ input[type="submit"]:hover{
     font-weight: 100;
     text-align: center;
     width: 100%;
+}
+
+#data-simon p img{
+    width: 40px;
 }
 
 /* =========================================

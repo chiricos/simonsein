@@ -36,11 +36,11 @@
             <li><span class="corazon"></span><a href="">Clientes</a></li>
         </section>
         <section>
-            <li><span class="tv"></span><a href="">Marketing digital </a></li>
+            <li><span class="tv"></span><a href="marketing.php">Marketing digital </a></li>
             <ul class="sub-menu">
                 <li><a href="">Pantallas de comunicación </a></li>
                 <li><a href="">Aplicaciones móviles</a></li>
-                <li><a href="">Rredes sociales</a></li>
+                <li><a href="">Redes sociales</a></li>
                 <li><a href="">Desarrollo web</a></li>
             </ul>
             <li><span class="lapiz"></span><a href=""> Quienes somos</a></li>

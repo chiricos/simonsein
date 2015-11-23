@@ -1,4 +1,11 @@
-<?php include('header.php'); ?>
+<?php
+    include('header.php');
+    $errorName='';
+    $errorEmail='';
+    $errorMessage='';
+    $message='';
+    include('enviar.php');
+?>
 
 <div id="wrapper">
     <?php include('menu.php'); ?>
@@ -21,23 +28,49 @@
 
             <div id="contact">
 
-                <form  method="post" action="formulario.php">
+                <?php
+                if($message!='')
+                {
+                    echo '<p style="color: #33B933">'.$message.'</p>';
+                }
+                ?>
 
-
+                <form  method="post" action="">
 
                            <label for="name">Nombre</label>
 
-                            <input type="text" name="name" id="name">
+                            <input type="text" name="name" id="name" value="<?php echo $_POST['name']; ?>">
+
+                            <?php
+                                if($errorName!='')
+                                {
+                                    echo '<p>'.$errorName.'</p>';
+                                }
+                            ?>
 
                            <label for="email"> E-Mail</label>
 
-                            <input type="text" name="email" id="email">
+                            <input type="text" name="email" id="email" value="<?php echo $_POST['email']; ?>">
+
+                            <?php
+                            if($errorEmail!='')
+                            {
+                                echo '<p >'.$errorEmail.'</p>';
+                            }
+                            ?>
 
                             <label for="message">Mensaje</label>
 
-                            <textarea name="message" id="message"></textarea>
+                            <textarea name="message" id="message" ><?php echo $_POST['message']; ?></textarea>
 
-                            <input  type="submit" value="Enviar" class="send">
+                            <?php
+                            if($errorMessage!='')
+                            {
+                                echo '<p >'.$errorMessage.'</p>';
+                            }
+                            ?>
+
+                            <input  type="submit" value="Enviar" class="send" name="contacto">
 
 
                 </form>
@@ -61,13 +94,10 @@
                         (57 1) 757 0236, (57 1) 467 3162, (57 1) 467 3161
                     </p>
                     <p>
-                        <section class="social">
-                            <figure><a href="https://twitter.com/SimonSein_Ltda" target="_blank"><img src="images/twitter.png"></a></figure>
-                            <figure><a href="https://www.facebook.com/simon.sein.31?fref=ts" target="_blank"><img src="images/facebook.png"></a></figure>
-                            <figure><a href="https://www.youtube.com/channel/UC5cDmU27ooIA5i-vbiey71g" target="_blank"><img src="images/youtube.png"></a></figure>
-                        </section>
+                           <a href="https://twitter.com/SimonSein_Ltda" target="_blank"><img src="images/twitter.png"></a>
+                            <a href="https://www.facebook.com/simon.sein.31?fref=ts" target="_blank"><img src="images/facebook.png"></a>
+                           <a href="https://www.youtube.com/channel/UC5cDmU27ooIA5i-vbiey71g" target="_blank"><img src="images/youtube.png"></a>
                     </p>
-
 
                 </div>
             </div>
