@@ -33,17 +33,17 @@
                 <li><a href="animacion.php">Animación y 3D</a></li>
             </ul>
             <li><span class="bombillo"></span><a href="">Campañas publicitarias ATL y BTL</a></li>
-            <li><span class="corazon"></span><a href="">Clientes</a></li>
+            <li><span class="corazon"></span><a href="clientes.php">Clientes</a></li>
         </section>
         <section>
             <li><span class="tv"></span><a href="marketing.php">Marketing digital </a></li>
             <ul class="sub-menu">
-                <li><a href="">Pantallas de comunicación </a></li>
-                <li><a href="">Aplicaciones móviles</a></li>
-                <li><a href="">Redes sociales</a></li>
-                <li><a href="">Desarrollo web</a></li>
+                <li><a href="pantalla.php">Pantallas de comunicación </a></li>
+                <li><a href="aplicaciones.php">Aplicaciones móviles</a></li>
+                <li><a href="redes.php">Redes sociales</a></li>
+                <li><a href="desarrollo.php">Desarrollo web</a></li>
             </ul>
-            <li><span class="lapiz"></span><a href=""> Quienes somos</a></li>
+            <li><span class="lapiz"></span><a href="quienes.php"> Quienes somos</a></li>
             <li><span class="buzon"></span><a href="contacto.php"> Contacto</a></li>
             <section class="social" id="social">
                 <figure><a href="https://twitter.com/SimonSein_Ltda" target="_blank"><img src="images/twitter.png"></a></figure>

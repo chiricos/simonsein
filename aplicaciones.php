@@ -11,16 +11,16 @@
                         <img src="images/tv.png">
                     </a>
                 </figure>
-                <a href="pantalla.php" style="line-height: 1; padding-top: 11px; color:red;">Pantallas de comunicación digital</a>
-                <a href="aplicaciones.php">Aplicaciones móviles</a>
+                <a href="pantalla.php" style="line-height: 1; padding-top: 11px; ">Pantallas de comunicación digital</a>
+                <a href="aplicaciones.php" style="color:red;">Aplicaciones móviles</a>
                 <a href="redes.php">Redes sociales</a>
                 <a href="desarrollo.php">Desarrollo web</a>
             </div>
         </section>
         <section class="content-body">
-            <h1>PANTALLAS DE COMUNICACIÓN DIGITAL</h1>
+            <h1>APLICACIONES MÓVILES</h1>
 
-            <div class="pop-up-content pop-up-pantallas">
+            <div class="pop-up-content pop-up-aplicaciones">
                 <span >x</span>
                 <figure>
                     <img id="VideoPlayer"  src="images/pantallas/pantallas1.jpg" >
@@ -35,29 +35,29 @@
                 </section>
             </div>
 
-            <div class="content-body-line pantallas">
+            <div class="content-body-line aplicaciones">
                 <section>
                     <figure>
-                        <img src="images/pantallas/pantallas1.jpg">
-                        <section><p>Pantallas táctiles</p></section>
+                        <img src="images/aplicaciones/aplicaciones1.jpg">
+                        <section><p>De shopping</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/pantallas/pantallas2.jpg">
-                        <section><p>Pantallas táctiles</p></section>
+                        <img src="images/aplicaciones/aplicaciones2.jpg">
+                        <section><p>De shopping</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/pantallas/pantallas3.jpg">
-                        <section><p>Pantallas táctiles</p></section>
+                        <img src="images/aplicaciones/aplicaciones3.jpg">
+                        <section><p>De shopping</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/pantallas/pantallas4.jpg">
-                        <section><p>Pantallas táctiles</p></section>
+                        <img src="images/aplicaciones/aplicaciones4.jpg">
+                        <section><p>De shopping</p></section>
                     </figure>
                 </section>
 

@@ -423,7 +423,7 @@ CONTENIDO POR CUADRICULA
 
 .content-body-line > section > figure > img{
     position: relative;
-    -webkit-filter: grayscale(100%);
+    -webkit-filter: grayscale(80%);
 }
 
 .content-body-line > section > figure > img:hover{
@@ -612,6 +612,46 @@ input[type="submit"]:hover{
 }
 
 /* =========================================
+QUIÉNES SOMOS
+*=========================================*/
+
+.quienes{
+    background: #333333;
+    margin: auto;
+    width: 90%;
+}
+
+.quienes p{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 2;
+    margin: auto;
+    padding: 60px 0;
+    text-align: justify;
+    width: 90%;
+}
+
+/* =========================================
+Clientes
+*=========================================*/
+
+.client{
+    background-color: #232323;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.wrapper-client{
+    margin: auto;
+    padding-top: 100px;
+    width: 1100px;
+}
+
+.wrapper-client h2{
+    color: white;
+}
+
+/* =========================================
 ANIMACIONES
 *=========================================*/
 
@@ -689,5 +729,3 @@ ANIMACIONES
     height: 500px!important;
     opacity: 1!important;
 }*/
-
-

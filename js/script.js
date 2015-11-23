@@ -1555,4 +1555,591 @@ $(document).on('ready',function()
         });
     });
 
+    /*============================
+     * APLICACIONES MÓVILES
+     *========================== */
+
+    $('.pop-up-aplicaciones span').on('click',function()
+    {
+        $( ".pop-up-aplicaciones" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer').src='';
+        });
+
+    });
+
+    $('.aplicaciones > section:nth-of-type(1)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('De shopping');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer').src='images/aplicaciones/aplicaciones1.jpg';
+        $('.pop-up-aplicaciones').css({display:'block'});
+        $( ".pop-up-aplicaciones" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.aplicaciones > section:nth-of-type(2)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('De shopping');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer').src='images/aplicaciones/aplicaciones2.jpg';
+        $('.pop-up-aplicaciones').css({display:'block'});
+        $( ".pop-up-aplicaciones" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.aplicaciones > section:nth-of-type(3)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('De shopping');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer').src='images/aplicaciones/aplicaciones3.jpg';
+        $('.pop-up-aplicaciones').css({display:'block'});
+        $( ".pop-up-aplicaciones" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.aplicaciones > section:nth-of-type(4)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('De shopping');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer').src='images/aplicaciones/aplicaciones4.jpg';
+        $('.pop-up-aplicaciones').css({display:'block'});
+        $( ".pop-up-aplicaciones" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+
+    /*============================
+     * REDES SOCIALES
+     *========================== */
+
+    $('.pop-up-redes span').on('click',function()
+    {
+        $( ".pop-up-redes" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer').src='';
+        });
+
+    });
+
+    $('.redes > section:nth-of-type(1)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('Simon sein');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer').src='images/redes/redes1.jpg';
+        $('.pop-up-redes').css({display:'block'});
+        $( ".pop-up-redes" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.redes > section:nth-of-type(2)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('CET colsubsidio');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer').src='images/redes/redes2.jpg';
+        $('.pop-up-redes').css({display:'block'});
+        $( ".pop-up-redes" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+
+    /*============================
+     * DESARROLLO WEB
+     *========================== */
+
+    $('.pop-up-desarrollo span').on('click',function()
+    {
+        $( ".pop-up-desarrollo" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer').src='';
+        });
+
+    });
+
+    $('.desarrollo > section:nth-of-type(1)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('Trianon');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer').src='images/desarrollo/desarrollo1.jpg';
+        $('.pop-up-desarrollo').css({display:'block'});
+        $( ".pop-up-desarrollo" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.desarrollo > section:nth-of-type(2)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('CONEX Chía');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer').src='images/desarrollo/desarrollo2.jpg';
+        $('.pop-up-desarrollo').css({display:'block'});
+        $( ".pop-up-desarrollo" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.desarrollo > section:nth-of-type(3)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('Chía del futuro');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer').src='images/desarrollo/desarrollo3.jpg';
+        $('.pop-up-desarrollo').css({display:'block'});
+        $( ".pop-up-desarrollo" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.desarrollo > section:nth-of-type(4)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('Cotexto urbano');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer').src='images/desarrollo/desarrollo4.jpg';
+        $('.pop-up-desarrollo').css({display:'block'});
+        $( ".pop-up-desarrollo" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.desarrollo > section:nth-of-type(5)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('Vivienda colsubsidio');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer').src='images/desarrollo/desarrollo5.jpg';
+        $('.pop-up-desarrollo').css({display:'block'});
+        $( ".pop-up-desarrollo" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+
+    /*============================
+     * MARKETING
+     *========================== */
+
+    $('.pop-up-marketing span').on('click',function()
+    {
+        $( ".pop-up-marketing" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer1').src='';
+            document.getElementById('VideoPlayer3').src='';
+            document.getElementById('VideoPlayer5').src='';
+        });
+
+    });
+    /*
+     ------BORRAR POP UP QUE NO ESTAN SELECCIONADOS
+     */
+
+    $('.marketing:nth-of-type(2) > section').on('click',function()
+    {
+        $( ".pop-up-marketing:nth-of-type(3)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer3').src='';
+        });
+        $( ".pop-up-marketing:nth-of-type(5)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer5').src='';
+        });
+        $( ".pop-up-marketing:nth-of-type(7)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer7').src='';
+        });
+        $( ".pop-up-marketing:nth-of-type(9)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer9').src='';
+        });
+        $( ".pop-up-marketing:nth-of-type(11)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer11').src='';
+        });
+    });
+
+    $('.marketing:nth-of-type(4) > section').on('click',function()
+    {
+        $( ".pop-up-marketing:nth-of-type(1)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer1').src='';
+        });
+        $( ".pop-up-marketing:nth-of-type(5)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer5').src='';
+        });
+        $( ".pop-up-marketing:nth-of-type(7)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer7').src='';
+        });
+        $( ".pop-up-marketing:nth-of-type(9)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer9').src='';
+        });
+        $( ".pop-up-marketing:nth-of-type(11)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer11').src='';
+        });
+    });
+
+    $('.marketing:nth-of-type(6) > section').on('click',function()
+    {
+        $( ".pop-up-marketing:nth-of-type(1)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer1').src='';
+        });
+        $( ".pop-up-marketing:nth-of-type(3)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer3').src='';
+        });
+        $( ".pop-up-marketing:nth-of-type(7)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer7').src='';
+        });
+        $( ".pop-up-marketing:nth-of-type(9)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer9').src='';
+        });
+        $( ".pop-up-marketing:nth-of-type(11)" ).animate({
+            opacity: 0,
+            height: "0"
+        }, 1000, function() {
+            $(this).css({display:'none'});
+            document.getElementById('VideoPlayer11').src='';
+        });
+    });
+    /*
+     ===============abrir pop-up
+     */
+
+    $('.marketing:nth-of-type(2) > section:nth-of-type(1)').on('click',function()
+    {
+        $('.pop-up-marketing:nth-of-type(1) > section > h2').text('Pantallas táctiles');
+        $('.pop-up-marketing:nth-of-type(1) > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer1').src='images/pantallas/pantallas1.jpg';
+        $('.pop-up-marketing:nth-of-type(1)').css({display:'block'});
+        $( '.pop-up-marketing:nth-of-type(1)' ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.marketing:nth-of-type(2) > section:nth-of-type(2)').on('click',function()
+    {
+        $('.pop-up-marketing:nth-of-type(1) > section > h2').text('Pantallas táctiles');
+        $('.pop-up-marketing:nth-of-type(1) > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer1').src='images/pantallas/pantallas2.jpg';
+        $('.pop-up-marketing:nth-of-type(1)').css({display:'block'});
+        $( ".pop-up-marketing:nth-of-type(1)" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.marketing:nth-of-type(2) > section:nth-of-type(3)').on('click',function()
+    {
+        $('.pop-up-marketing:nth-of-type(1) > section > h2').text('Pantallas táctiles');
+        $('.pop-up-marketing:nth-of-type(1) > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer1').src='images/pantallas/pantallas3.jpg';
+        $('.pop-up-marketing:nth-of-type(1)').css({display:'block'});
+        $( ".pop-up-marketing:nth-of-type(1)" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.marketing:nth-of-type(2) > section:nth-of-type(4)').on('click',function()
+    {
+        $('.pop-up-marketing:nth-of-type(1) > section > h2').text('Pantallas táctiles');
+        $('.pop-up-marketing:nth-of-type(1) > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer1').src='images/pantallas/pantallas4.jpg';
+        $('.pop-up-marketing:nth-of-type(1)').css({display:'block'});
+        $( ".pop-up-marketing:nth-of-type(1)" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.marketing:nth-of-type(2) > section:nth-of-type(5)').on('click',function()
+    {
+        $('.pop-up-marketing:nth-of-type(1) > section > h2').text('De shopping');
+        $('.pop-up-marketing:nth-of-type(1) > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer1').src='images/aplicaciones/aplicaciones1.jpg';
+        $('.pop-up-marketing:nth-of-type(1)').css({display:'block'});
+        $( ".pop-up-marketing:nth-of-type(1)" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+
+    $('.marketing:nth-of-type(4) > section:nth-of-type(1)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('De shopping');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer3').src='images/aplicaciones/aplicaciones2.jpg';
+        $('.pop-up-marketing:nth-of-type(3)').css({display:'block'});
+        $( ".pop-up-marketing:nth-of-type(3)" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.marketing:nth-of-type(4) > section:nth-of-type(2)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('De shopping');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer3').src='images/aplicaciones/aplicaciones3.jpg';
+        $('.pop-up-marketing:nth-of-type(3)').css({display:'block'});
+        $( ".pop-up-marketing:nth-of-type(3)" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.marketing:nth-of-type(4) > section:nth-of-type(3)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('De shopping ');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer3').src='images/aplicaciones/aplicaciones4.jpg';
+        $('.pop-up-marketing:nth-of-type(3)').css({display:'block'});
+        $( ".pop-up-marketing:nth-of-type(3)" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.marketing:nth-of-type(4) > section:nth-of-type(4)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('Simon sein');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer3').src='images/redes/redes1.jpg';
+        $('.pop-up-marketing:nth-of-type(3)').css({display:'block'});
+        $( ".pop-up-marketing:nth-of-type(3)" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.marketing:nth-of-type(4) > section:nth-of-type(5)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('CET colsubsidio ');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer3').src='images/redes/redes2.jpg';
+        $('.pop-up-marketing:nth-of-type(3)').css({display:'block'});
+        $( ".pop-up-marketing:nth-of-type(3)" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+
+    $('.marketing:nth-of-type(6) > section:nth-of-type(1)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('Trianon');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer5').src='images/desarrollo/desarrollo1.jpg';
+        $('.pop-up-marketing:nth-of-type(5)').css({display:'block'});
+        $( ".pop-up-marketing:nth-of-type(5)" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.marketing:nth-of-type(6) > section:nth-of-type(2)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('CONEX Chía');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer5').src='images/desarrollo/desarrollo2.jpg';
+        $('.pop-up-marketing:nth-of-type(5)').css({display:'block'});
+        $( ".pop-up-marketing:nth-of-type(5)" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.marketing:nth-of-type(6) > section:nth-of-type(3)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('Chía del futuro');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer5').src='images/desarrollo/desarrollo3.jpg';
+        $('.pop-up-marketing:nth-of-type(5)').css({display:'block'});
+        $( ".pop-up-marketing:nth-of-type(5)" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.marketing:nth-of-type(6) > section:nth-of-type(4)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('Cotexto urbano');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer5').src='images/desarrollo/desarrollo4.jpg';
+        $('.pop-up-marketing:nth-of-type(5)').css({display:'block'});
+        $( ".pop-up-marketing:nth-of-type(5)" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+    $('.marketing:nth-of-type(6) > section:nth-of-type(5)').on('click',function()
+    {
+        $('.pop-up-content > section > h2').text('Vivienda colsubsidio');
+        $('.pop-up-content > section > p').text('' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elit dolor, suscipit quis ultricies ac, accumsan ac erat. Ut at pellentesque metus. Maecenas lobortis turpis nisi, eu consectetur tellus luctus vitae. Aenean in nulla ornare, egestas lacus vitae, sodales odio. Aenean a est at lacus commodo venenatis a hendrerit sem. Mauris ultrices eleifend magna a iaculis. Cras at luctus felis. Quisque eu tincidunt lorem. Maecenas tempor risus tempor mi congue, ut vestibulum turpis volutpat. Proin lobortis erat nec purus blandit sodales. Suspendisse potenti. Donec a augue odio. Suspendisse faucibus, purus ut imperdiet suscipit, nulla est mollis lorem, eu imperdiet tortor metus a mi. Vestibulum molestie iaculis eros, non tempor augue imperdiet malesuada. Cras tempus quam justo, ut consectetur felis dapibus et. Aenean tellus lacus, rutrum sit amet lorem at, finibus maximus ex. Sed nec lacus sit amet massa vulputate dapibus sed ac nulla. Vivamus luctus, magna id interdum laoreet, ligula neque viverra urna, et consectetur elit dolor ut risus. Praesent cursus, ligula ut congue gravida, lectus leo suscipit ante, vitae bibendum erat lorem at mauris. In varius rhoncus maximus. Quisque ultricies vitae dolor et sagittis. Quisque vestibulum placerat turpis, a varius mi efficitur a. Aenean et eros facilisis, tempor sem sit amet, vulputate nibh.' +
+            '');
+        document.getElementById('VideoPlayer5').src='images/desarrollo/desarrollo5.jpg';
+        $('.pop-up-marketing:nth-of-type(5)').css({display:'block'});
+        $( ".pop-up-marketing:nth-of-type(5)" ).animate({
+            opacity: 1,
+            height: "400px"
+        }, 1000, function() {
+            $(this).css({display:'block'});
+        });
+    });
+
+
+
 });

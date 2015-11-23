@@ -11,16 +11,16 @@
                         <img src="images/tv.png">
                     </a>
                 </figure>
-                <a href="pantalla.php" style="line-height: 1; padding-top: 11px; color:red;">Pantallas de comunicación digital</a>
-                <a href="aplicaciones.php">Aplicaciones móviles</a>
-                <a href="redes.php">Redes sociales</a>
+                <a href="pantalla.php" style="line-height: 1; padding-top: 11px; ">Pantallas de comunicación digital</a>
+                <a href="aplicaciones.php" >Aplicaciones móviles</a>
+                <a href="redes.php" style="color:red;">Redes sociales</a>
                 <a href="desarrollo.php">Desarrollo web</a>
             </div>
         </section>
         <section class="content-body">
-            <h1>PANTALLAS DE COMUNICACIÓN DIGITAL</h1>
+            <h1>APLICACIONES MÓVILES</h1>
 
-            <div class="pop-up-content pop-up-pantallas">
+            <div class="pop-up-content pop-up-redes">
                 <span >x</span>
                 <figure>
                     <img id="VideoPlayer"  src="images/pantallas/pantallas1.jpg" >
@@ -35,29 +35,17 @@
                 </section>
             </div>
 
-            <div class="content-body-line pantallas">
+            <div class="content-body-line redes">
                 <section>
                     <figure>
-                        <img src="images/pantallas/pantallas1.jpg">
-                        <section><p>Pantallas táctiles</p></section>
+                        <img src="images/redes/redes1.jpg">
+                        <section><p>Simon sein</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/pantallas/pantallas2.jpg">
-                        <section><p>Pantallas táctiles</p></section>
-                    </figure>
-                </section>
-                <section>
-                    <figure>
-                        <img src="images/pantallas/pantallas3.jpg">
-                        <section><p>Pantallas táctiles</p></section>
-                    </figure>
-                </section>
-                <section>
-                    <figure>
-                        <img src="images/pantallas/pantallas4.jpg">
-                        <section><p>Pantallas táctiles</p></section>
+                        <img src="images/redes/redes2.jpg">
+                        <section><p>CET colsubsidio</p></section>
                     </figure>
                 </section>
 
