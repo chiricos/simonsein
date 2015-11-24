@@ -97,7 +97,7 @@
                     </figure>
                     <div>
                         <p>Contexto urbano</p>
-                        <a href="">Proyectos</a>
+                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -107,7 +107,7 @@
                     </figure>
                     <div>
                         <p>deShopping</p>
-                        <a href="">Proyectos</a>
+                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -117,7 +117,7 @@
                     </figure>
                     <div>
                         <p>C&CO</p>
-                        <a href="">Proyectos</a>
+                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -127,7 +127,7 @@
                     </figure>
                     <div>
                         <p>SuperNotariado</p>
-                        <a href="">Proyectos</a>
+                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -139,7 +139,7 @@
                     </figure>
                     <div>
                         <p>SuperNotariado</p>
-                        <a href="">Proyectos</a>
+                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
