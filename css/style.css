@@ -4,6 +4,7 @@ html {
     -ms-text-size-adjust: 100%;
 }
 body {
+    background: #1C1C1C;
     margin: 0;
 }
 
@@ -384,7 +385,6 @@ CONTENIDO POR CUADRICULA
     display: inline-block;
     height: 100%;
     margin-right: -6px;
-    overflow: scroll;
     width: 250px;
 }
 
