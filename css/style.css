@@ -618,17 +618,27 @@ QUIÉNES SOMOS
 .quienes{
     background: #333333;
     margin: auto;
+    padding: 20px;
+    text-align: center;
     width: 90%;
 }
 
+.quienes figure{
+    display: inline-block;
+    vertical-align: top;
+    width: 53%;
+}
+
 .quienes p{
-    font-size: 20px;
+    display: inline-block;
+    font-size: 18px;
     font-weight: 100;
     line-height: 2;
     margin: auto;
-    padding: 60px 0;
+    padding: 0 10px;
     text-align: justify;
-    width: 90%;
+    vertical-align: top;
+    width: 45%;
 }
 
 /* =========================================
@@ -637,6 +647,7 @@ Clientes
 
 .client{
     background-color: #232323;
+    padding-bottom: 40px;
     min-height: 100vh;
     width: 100%;
 }
@@ -651,16 +662,47 @@ Clientes
     color: white;
 }
 
+.wrapper-client a{
+    text-decoration: none;
+}
+
 .wrapper-client section{
     background: #333333;
     display: inline-block;
-    height: 200px;
+    margin-bottom: 5px;
     text-align: center;
     vert-align: top;
-    width: 23%;
+    width: 24%;
 }
 
-.wrapper-client > a > section > figure > img{
+.wrapper-client section > figure{
+    border-bottom: 1px solid black;
+    height: 300px;
+    line-height: 24;
+}
+
+.wrapper-client section > div > p{
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.wrapper-client section > div > a{
+    background-color: black;
+    color: white;
+    display: block;
+    height: 45px;
+    line-height: 3;
+    margin: 0 auto 19px;
+    width: 90%;
+}
+
+.wrapper-client section > div > a:hover{
+    background: #3C3C3C;
+}
+
+.wrapper-client > section > figure > img{
     width: 50%;
 }
 

@@ -6,46 +6,144 @@
     <div class="client">
         <div class="wrapper-client">
         <h2>CLIENTES</h2>
-            <a>
+
+                <section>
+                    <figure>
+                        <img src="images/clientes/sr.png">
+                    </figure>
+                    <div>
+                        <p>SrPack</p>
+                        <a href="">Ver Proyectos</a>
+                    </div>
+                </section>
+
+                <section>
+                    <figure>
+                        <img src="images/clientes/4-72.png">
+                    </figure>
+                    <div>
+                        <p>4-72</p>
+                        <a href="">Ver Proyectos</a>
+                    </div>
+                </section>
+
                 <section>
                     <figure>
                         <img src="images/clientes/servientrega.png">
                     </figure>
                     <div>
-                        <p>cliente1</p>
+                        <p>Servientrega</p>
+                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
-            </a>
-            <a>
+
                 <section>
                     <figure>
-                        <img src="images/clientes/servientrega.png">
+                        <img src="images/clientes/colsubsidio.png">
                     </figure>
                     <div>
-                        <p>cliente1</p>
+                        <p>Colsubsidio</p>
+                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
-            </a>
-            <a>
+
+
                 <section>
                     <figure>
-                        <img src="images/clientes/servientrega.png">
+                        <img src="images/clientes/cet.png">
                     </figure>
                     <div>
-                        <p>cliente1</p>
+                        <p>CET Colsubsidio</p>
+                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
-            </a>
-            <a>
+
                 <section>
                     <figure>
-                        <img src="images/clientes/servientrega.png">
+                        <img src="images/clientes/colsubsidio.png">
                     </figure>
                     <div>
-                        <p>cliente1</p>
+                        <p>Museo de los niños</p>
+                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
-            </a>
+
+                <section>
+                    <figure>
+                        <img src="images/clientes/educacion.png">
+                    </figure>
+                    <div>
+                        <p>Ministerio de educación</p>
+                        <a href="">Ver Proyectos</a>
+                    </div>
+                </section>
+
+                <section>
+                    <figure>
+                        <img src="images/clientes/zuana.png">
+                    </figure>
+                    <div>
+                        <p>Zuana</p>
+                        <a href="">Ver Proyectos</a>
+                    </div>
+                </section>
+
+
+
+
+                <section>
+                    <figure>
+                        <img src="images/clientes/contexto.png">
+                    </figure>
+                    <div>
+                        <p>Contexto urbano</p>
+                        <a href="">Proyectos</a>
+                    </div>
+                </section>
+
+                <section>
+                    <figure>
+                        <img src="images/clientes/deshopping.png">
+                    </figure>
+                    <div>
+                        <p>deShopping</p>
+                        <a href="">Proyectos</a>
+                    </div>
+                </section>
+
+                <section>
+                    <figure>
+                        <img src="images/clientes/co.png">
+                    </figure>
+                    <div>
+                        <p>C&CO</p>
+                        <a href="">Proyectos</a>
+                    </div>
+                </section>
+
+                <section>
+                    <figure>
+                        <img src="images/clientes/snr.png">
+                    </figure>
+                    <div>
+                        <p>SuperNotariado</p>
+                        <a href="">Proyectos</a>
+                    </div>
+                </section>
+
+
+
+                <section>
+                    <figure>
+                        <img src="images/clientes/15.png">
+                    </figure>
+                    <div>
+                        <p>SuperNotariado</p>
+                        <a href="">Proyectos</a>
+                    </div>
+                </section>
+
+
         </div>
     </div>
 
