@@ -79,7 +79,7 @@
             $mail->addBCC('webmaster@simonsein.com');
 // Set email format to HTML
             $mail->Subject = 'correo de la pagina de simonsein.com';
-            $mail->Body    = '<h1>Banca de inversión</h1>
+            $mail->Body    = '<h1>Simon sein</h1>
             <table>
                 <tbody>
                     <tr>
