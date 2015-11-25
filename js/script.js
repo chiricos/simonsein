@@ -1,43 +1,4 @@
-window.onload = function() {
 
-    function bgadj(){
-
-        var videoActualWidth = video.getBoundingClientRect().width;
-        var videoActualHeight = video.getBoundingClientRect().height;
-
-        var ratio =  videoActualWidth / videoActualHeight;
-
-        if ((window.innerWidth / window.innerHeight) < ratio){
-
-            video.setAttribute("style", "width: auto");
-            video.setAttribute("style", "height: 100%");
-
-            <!-- si el vídeo es mas ancho que la ventana lo centro. Esta parte es opcional -->
-            if (videoActualWidth > window.innerWidth){
-
-                var ajuste = (window.innerWidth - videoActualWidth)/2;
-
-                video.setAttribute("style", "left:"+ajuste+"px");
-            }
-
-        }
-        else{
-
-            video.setAttribute("style", "width: 100%");
-            video.setAttribute("style", "height: auto");
-            video.setAttribute("style", "left: 0");
-
-        }
-
-    }
-
-    <!-- vuelvo a llamar a la función  bgadj() al redimensionar la ventana -->
-    window.onresize = function() {
-        bgadj();
-
-    }
-
-}
 
 $(document).on('ready',function()
 {
@@ -52,7 +13,7 @@ $(document).on('ready',function()
             $( "nav" ).animate({
                 opacity: 1,
                 height: "100%"
-            }, 1000, function() {
+            },500, function() {
                 $(this).css({display:'block'});
             });
 
@@ -61,7 +22,7 @@ $(document).on('ready',function()
             $( "nav" ).animate({
                 opacity: 0,
                 height: "0"
-            }, 1000, function() {
+            }, 500, function() {
                 $(this).css({display:'none'});
             });
             i=0;
@@ -78,7 +39,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer1').src='';
             document.getElementById('VideoPlayer3').src='';
@@ -98,35 +59,35 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(3)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer3').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(5)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer5').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(7)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer7').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(9)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer9').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(11)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer11').src='';
         });
@@ -137,35 +98,35 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(1)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer1').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(5)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer5').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(7)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer7').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(9)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer9').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(11)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer11').src='';
         });
@@ -176,35 +137,35 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(1)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer1').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(3)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer3').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(7)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer7').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(9)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer9').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(11)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer11').src='';
         });
@@ -215,35 +176,35 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(1)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer1').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(3)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer3').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(5)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer5').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(9)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer9').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(11)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer11').src='';
         });
@@ -254,35 +215,35 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(1)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer1').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(3)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer3').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(5)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer5').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(7)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer7').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(11)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer11').src='';
         });
@@ -293,35 +254,35 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(1)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer1').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(3)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer3').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(5)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer5').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(7)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer7').src='';
         });
         $( ".pop-up-audiovisual:nth-of-type(9)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer9').src='';
         });
@@ -342,7 +303,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(1)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -357,7 +318,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(1)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -372,7 +333,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(1)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -387,7 +348,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(1)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -402,7 +363,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(1)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -418,7 +379,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -433,7 +394,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -448,7 +409,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -463,7 +424,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -478,7 +439,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -494,7 +455,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -509,7 +470,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -524,7 +485,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -539,7 +500,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -554,7 +515,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -570,7 +531,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(7)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -585,7 +546,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(7)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -600,7 +561,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(7)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -615,7 +576,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(7)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -630,7 +591,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(7)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -646,7 +607,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(9)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -661,7 +622,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(9)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -676,7 +637,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(9)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -691,7 +652,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(9)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -706,7 +667,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(9)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -723,7 +684,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(11)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -738,7 +699,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(11)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -753,7 +714,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(11)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -768,7 +729,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(11)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -783,7 +744,7 @@ $(document).on('ready',function()
         $( ".pop-up-audiovisual:nth-of-type(11)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -798,7 +759,7 @@ $(document).on('ready',function()
         $( ".pop-up-reels" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer').src='';
         });
@@ -816,7 +777,7 @@ $(document).on('ready',function()
         $( ".pop-up-reels" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -831,7 +792,7 @@ $(document).on('ready',function()
         $( ".pop-up-reels" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -846,7 +807,7 @@ $(document).on('ready',function()
         $( ".pop-up-reels" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -861,7 +822,7 @@ $(document).on('ready',function()
         $( ".pop-up-reels" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -875,7 +836,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer1').src='';
             document.getElementById('VideoPlayer3').src='';
@@ -903,7 +864,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(1)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -919,7 +880,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(1)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -935,7 +896,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(1)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -951,7 +912,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(1)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -967,7 +928,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(1)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -989,7 +950,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1005,7 +966,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1021,7 +982,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1037,7 +998,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1053,7 +1014,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1073,7 +1034,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1088,7 +1049,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1103,7 +1064,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1118,7 +1079,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1133,7 +1094,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1152,7 +1113,7 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(7)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1166,21 +1127,21 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(3)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer3').src='';
         });
         $( ".pop-up-motion:nth-of-type(5)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer5').src='';
         });
         $( ".pop-up-motion:nth-of-type(7)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer7').src='';
         });
@@ -1191,21 +1152,21 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(1)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer1').src='';
         });
         $( ".pop-up-motion:nth-of-type(5)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer5').src='';
         });
         $( ".pop-up-motion:nth-of-type(7)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer7').src='';
         });
@@ -1216,21 +1177,21 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(1)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer1').src='';
         });
         $( ".pop-up-motion:nth-of-type(3)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer3').src='';
         });
         $( ".pop-up-motion:nth-of-type(7)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer7').src='';
         });
@@ -1241,21 +1202,21 @@ $(document).on('ready',function()
         $( ".pop-up-motion:nth-of-type(1)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer1').src='';
         });
         $( ".pop-up-motion:nth-of-type(3)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer3').src='';
         });
         $( ".pop-up-motion:nth-of-type(5)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer5').src='';
         });
@@ -1270,7 +1231,7 @@ $(document).on('ready',function()
         $( ".pop-up-video" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer').src='';
         });
@@ -1288,7 +1249,7 @@ $(document).on('ready',function()
         $( ".pop-up-video" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1303,7 +1264,7 @@ $(document).on('ready',function()
         $( ".pop-up-video" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1318,7 +1279,7 @@ $(document).on('ready',function()
         $( ".pop-up-video" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1332,7 +1293,7 @@ $(document).on('ready',function()
         $( ".pop-up-fotografia" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer').src='';
         });
@@ -1350,7 +1311,7 @@ $(document).on('ready',function()
         $( ".pop-up-fotografia" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1365,7 +1326,7 @@ $(document).on('ready',function()
         $( ".pop-up-fotografia" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1380,7 +1341,7 @@ $(document).on('ready',function()
         $( ".pop-up-fotografia" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1395,7 +1356,7 @@ $(document).on('ready',function()
         $( ".pop-up-fotografia" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1409,7 +1370,7 @@ $(document).on('ready',function()
         $( ".pop-up-multimedia" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer').src='';
         });
@@ -1427,7 +1388,7 @@ $(document).on('ready',function()
         $( ".pop-up-multimedia" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1440,7 +1401,7 @@ $(document).on('ready',function()
         $( ".pop-up-animacion" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer').src='';
         });
@@ -1458,7 +1419,7 @@ $(document).on('ready',function()
         $( ".pop-up-animacion" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1473,7 +1434,7 @@ $(document).on('ready',function()
         $( ".pop-up-animacion" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1487,7 +1448,7 @@ $(document).on('ready',function()
         $( ".pop-up-pantallas" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer').src='';
         });
@@ -1505,7 +1466,7 @@ $(document).on('ready',function()
         $( ".pop-up-pantallas" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1520,7 +1481,7 @@ $(document).on('ready',function()
         $( ".pop-up-pantallas" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1535,7 +1496,7 @@ $(document).on('ready',function()
         $( ".pop-up-pantallas" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1550,7 +1511,7 @@ $(document).on('ready',function()
         $( ".pop-up-pantallas" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1564,7 +1525,7 @@ $(document).on('ready',function()
         $( ".pop-up-aplicaciones" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer').src='';
         });
@@ -1582,7 +1543,7 @@ $(document).on('ready',function()
         $( ".pop-up-aplicaciones" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1597,7 +1558,7 @@ $(document).on('ready',function()
         $( ".pop-up-aplicaciones" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1612,7 +1573,7 @@ $(document).on('ready',function()
         $( ".pop-up-aplicaciones" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1627,7 +1588,7 @@ $(document).on('ready',function()
         $( ".pop-up-aplicaciones" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1641,7 +1602,7 @@ $(document).on('ready',function()
         $( ".pop-up-redes" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer').src='';
         });
@@ -1659,7 +1620,7 @@ $(document).on('ready',function()
         $( ".pop-up-redes" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1674,7 +1635,7 @@ $(document).on('ready',function()
         $( ".pop-up-redes" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1688,7 +1649,7 @@ $(document).on('ready',function()
         $( ".pop-up-desarrollo" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer').src='';
         });
@@ -1706,7 +1667,7 @@ $(document).on('ready',function()
         $( ".pop-up-desarrollo" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1721,7 +1682,7 @@ $(document).on('ready',function()
         $( ".pop-up-desarrollo" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1736,7 +1697,7 @@ $(document).on('ready',function()
         $( ".pop-up-desarrollo" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1751,7 +1712,7 @@ $(document).on('ready',function()
         $( ".pop-up-desarrollo" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1766,7 +1727,7 @@ $(document).on('ready',function()
         $( ".pop-up-desarrollo" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1780,7 +1741,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer1').src='';
             document.getElementById('VideoPlayer3').src='';
@@ -1797,35 +1758,35 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(3)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer3').src='';
         });
         $( ".pop-up-marketing:nth-of-type(5)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer5').src='';
         });
         $( ".pop-up-marketing:nth-of-type(7)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer7').src='';
         });
         $( ".pop-up-marketing:nth-of-type(9)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer9').src='';
         });
         $( ".pop-up-marketing:nth-of-type(11)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer11').src='';
         });
@@ -1836,35 +1797,35 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(1)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer1').src='';
         });
         $( ".pop-up-marketing:nth-of-type(5)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer5').src='';
         });
         $( ".pop-up-marketing:nth-of-type(7)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer7').src='';
         });
         $( ".pop-up-marketing:nth-of-type(9)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer9').src='';
         });
         $( ".pop-up-marketing:nth-of-type(11)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer11').src='';
         });
@@ -1875,35 +1836,35 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(1)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer1').src='';
         });
         $( ".pop-up-marketing:nth-of-type(3)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer3').src='';
         });
         $( ".pop-up-marketing:nth-of-type(7)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer7').src='';
         });
         $( ".pop-up-marketing:nth-of-type(9)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer9').src='';
         });
         $( ".pop-up-marketing:nth-of-type(11)" ).animate({
             opacity: 0,
             height: "0"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'none'});
             document.getElementById('VideoPlayer11').src='';
         });
@@ -1923,7 +1884,7 @@ $(document).on('ready',function()
         $( '.pop-up-marketing:nth-of-type(1)' ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1938,7 +1899,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(1)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1953,7 +1914,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(1)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1968,7 +1929,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(1)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1983,7 +1944,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(1)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -1999,7 +1960,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -2014,7 +1975,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -2029,7 +1990,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -2044,7 +2005,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -2059,7 +2020,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(3)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -2075,7 +2036,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -2090,7 +2051,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -2105,7 +2066,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -2120,7 +2081,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
@@ -2135,7 +2096,7 @@ $(document).on('ready',function()
         $( ".pop-up-marketing:nth-of-type(5)" ).animate({
             opacity: 1,
             height: "400px"
-        }, 1000, function() {
+        }, 500, function() {
             $(this).css({display:'block'});
         });
     });
