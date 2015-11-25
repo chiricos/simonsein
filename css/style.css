@@ -837,11 +837,13 @@ media de 800
     }
 
     nav > ul > section{
-        margin-left: -6px;
-        width: 50%;
+        width: 100%;
     }
 
     nav ul li{
+        font-size: 28px;
+        line-height: 2;
+        text-align: center;
         width: 100%;
     }
 
