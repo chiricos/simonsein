@@ -782,6 +782,10 @@ media de 1100
         text-align: center;
         width: 100%;
     }
+
+    #contact{
+        width: 93%;
+    }
 }
 
 /* =========================================
