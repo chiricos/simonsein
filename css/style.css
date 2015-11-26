@@ -105,6 +105,14 @@ HOME
     width: 100%;
 }
 
+#wrapper{
+    display: block;
+}
+
+.wrapper-media{
+    display: none;
+}
+
 #video-back{
     height: 100%;
     position: absolute;
@@ -933,6 +941,14 @@ media de 800
         height: 50px;
         line-height: 1.9;
         width: 50px;
+    }
+
+    #wrapper{
+        display: none;
+    }
+
+    .wrapper-media{
+        display: block;
     }
 }
 
