@@ -2101,6 +2101,133 @@ $(document).on('ready',function()
         });
     });
 
+    /*============================
+     * CAMPAÑAS PUBLICITARIAS
+     *========================== */
+
+    $('.close').on('click',function()
+    {
+        $( ".campañas-slider" ).animate({
+            opacity: 1,
+            height: "0"
+        }, 500, function() {
+            $(this).css({display:'none'});
+        });
+
+    });
+
+    $('.campañas >section:nth-of-type(1)').on('click',function()
+    {
+        $( ".campañas-slider" ).css({display:'none'});
+        $( ".campañas-slider:nth-of-type(1)" ).animate({
+            opacity: 1,
+            height: "100%"
+        },0, function() {
+            $(this).css({display:'block'});
+        });
+
+    });
+    $('.campañas >section:nth-of-type(2)').on('click',function()
+    {
+        $( ".campañas-slider" ).css({display:'none'});
+        $( ".campañas-slider:nth-of-type(2)" ).animate({
+            opacity: 1,
+            height: "100%"
+        },0, function() {
+            $(this).css({display:'block'});
+        });
+
+    });
+    $('.campañas >section:nth-of-type(3)').on('click',function()
+    {
+        $( ".campañas-slider" ).css({display:'none'});
+        $( ".campañas-slider:nth-of-type(3)" ).animate({
+            opacity: 1,
+            height: "100%"
+        },0, function() {
+            $(this).css({display:'block'});
+        });
+
+    });
+    $('.campañas >section:nth-of-type(4)').on('click',function()
+    {
+        $( ".campañas-slider" ).css({display:'none'});
+        $( ".campañas-slider:nth-of-type(4)" ).animate({
+            opacity: 1,
+            height: "100%"
+        },0, function() {
+            $(this).css({display:'block'});
+        });
+
+    });
+    $('.campañas >section:nth-of-type(5)').on('click',function()
+    {
+        $( ".campañas-slider" ).css({display:'none'});
+        $( ".campañas-slider:nth-of-type(5)" ).animate({
+            opacity: 1,
+            height: "100%"
+        },0, function() {
+            $(this).css({display:'block'});
+        });
+
+    });
+    $('.campañas >section:nth-of-type(6)').on('click',function()
+    {
+        $( ".campañas-slider" ).css({display:'none'});
+        $( ".campañas-slider:nth-of-type(6)" ).animate({
+            opacity: 1,
+            height: "100%"
+        },0, function() {
+            $(this).css({display:'block'});
+        });
+
+    });
+    $('.campañas >section:nth-of-type(7)').on('click',function()
+    {
+        $( ".campañas-slider" ).css({display:'none'});
+        $( ".campañas-slider:nth-of-type(7)" ).animate({
+            opacity: 1,
+            height: "100%"
+        },0, function() {
+            $(this).css({display:'block'});
+        });
+
+    });
+    $('.campañas >section:nth-of-type(8)').on('click',function()
+    {
+        $( ".campañas-slider" ).css({display:'none'});
+        $( ".campañas-slider:nth-of-type(8)" ).animate({
+            opacity: 1,
+            height: "100%"
+        },0, function() {
+            $(this).css({display:'block'});
+        });
+
+    });
+    $('.campañas >section:nth-of-type(9)').on('click',function()
+    {
+        $( ".campañas-slider" ).css({display:'none'});
+        $( ".campañas-slider:nth-of-type(9)" ).animate({
+            opacity: 1,
+            height: "100%"
+        },0, function() {
+            $(this).css({display:'block'});
+        });
+
+    });
+    $('.campañas >section:nth-of-type(10)').on('click',function()
+    {
+        $( ".campañas-slider" ).css({display:'none'});
+        $( ".campañas-slider:nth-of-type(10)" ).animate({
+            opacity: 1,
+            height: "100%"
+        },0, function() {
+            $(this).css({display:'block'});
+        });
+
+    });
+
+
 
 
 });
@@ -2108,7 +2235,7 @@ $(document).on('ready',function()
 $(window).load(function() {
     $('.flexslider').flexslider(
         {
-            controlNav: true,               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+            controlNav: false,               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
             directionNav: true,             //Boolean: Create navigation for previous/next navigation? (true/false)
             prevText: "Previous",           //String: Set the text for the "previous" directionNav item
             nextText: "Next",
