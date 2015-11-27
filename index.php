@@ -2,6 +2,8 @@
 
 <div id="wrapper">
 
+    <?php include('menu.php') ?>
+    <h1 style="opacity: 0;height: 0;width: 0;display: block">Simon sein</h1>
     <?php
         $i=rand(1, 3);
         echo $i;
@@ -29,10 +31,6 @@
 
 </div>
 
-<div id="wrapper wrapper-media">
-    <?php include('menu.php'); ?>
-    <div class="body-three"></div>
-</div>
 
 <?php include('footer.php'); ?>
 

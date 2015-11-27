@@ -105,13 +105,8 @@ HOME
     width: 100%;
 }
 
-#wrapper{
-    display: block;
-}
 
-.wrapper-media{
-    display: none;
-}
+
 
 #video-back{
     height: 100%;
@@ -943,13 +938,6 @@ media de 800
         width: 50px;
     }
 
-    #wrapper{
-        display: none;
-    }
-
-    .wrapper-media{
-        display: block;
-    }
 }
 
 /* =========================================
