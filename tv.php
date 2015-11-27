@@ -8,7 +8,7 @@
             <div class="content-sub-menu">
                 <figure>
                     <a href="audiovisual.php">
-                        <img src="images/camara.png">
+                        <img src="images/camara.png" alt="camara" title="camara">
                     </a>
                 </figure>
                 <a href="reels.php" >Reels</a>
@@ -40,19 +40,19 @@
             <div class="content-body-line video">
                 <section>
                     <figure>
-                        <img src="images/tv/tv1.jpg">
+                        <img src="images/tv/tv1.jpg" alt="Ambiental Colsubsidio" title="Ambiental Colsubsidio">
                         <section><p>Ambiental Colsubsidio</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/tv/tv2.jpg">
+                        <img src="images/tv/tv2.jpg" alt="Piscilago" title="Piscilago">
                         <section><p>Piscilago</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/tv/tv3.jpg">
+                        <img src="images/tv/tv3.jpg" alt="Stop Hoteles" title="Stop Hoteles">
                         <section><p>Stop Hoteles</p></section>
                     </figure>
                 </section>

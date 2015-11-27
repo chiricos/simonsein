@@ -8,7 +8,7 @@
             <div class="content-sub-menu">
                 <figure>
                     <a href="audiovisual.php">
-                        <img src="images/camara.png">
+                        <img src="images/camara.png" alt="Camara" title="camara">
                     </a>
                 </figure>
                 <a href="reels.php" style="color: red">Reels</a>
@@ -40,25 +40,25 @@
             <div class="content-body-line reels">
                 <section>
                     <figure>
-                        <img src="images/reels1.jpg">
+                        <img src="images/reels1.jpg" alt="Simon Sein Infográfico" title="Simon Sein Infográfico">
                         <section><p>Simon Sein Infográfico</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/reels2.jpg">
+                        <img src="images/reels2.jpg" alt="Rells Simon Sein Branding" title="Reels Simon Sein Branding">
                         <section><p>Reels Simon Sein Branding</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/reels3.jpg">
+                        <img src="images/reels3.jpg" alt="Reels Simon Sein Websites" title="Reels Simon Sein Websites">
                         <section><p>Reels Simon Sein Websites</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/reels4.jpg">
+                        <img src="images/reels4.jpg" alt="Reels Simon Sein Video Alta" title="Reels Simon Sein Video Alta">
                         <section><p>Reels Simon Sein Video Alta</p></section>
                     </figure>
                 </section>

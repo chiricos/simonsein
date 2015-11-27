@@ -8,7 +8,7 @@
             <div class="content-sub-menu">
                 <figure>
                     <a href="marketing.php">
-                        <img src="images/tv.png">
+                        <img src="images/tv.png" alt="tv" title="tv">
                     </a>
                 </figure>
                 <a href="pantalla.php" style="line-height: 1; padding-top: 11px; ">Pantallas de comunicación digital</a>
@@ -23,7 +23,7 @@
             <div class="pop-up-content pop-up-redes">
                 <span >x</span>
                 <figure>
-                    <img id="VideoPlayer"  src="images/pantallas/pantallas1.jpg" >
+                    <img id="VideoPlayer"  src="images/pantallas/pantallas1.jpg" alt="redes sociales" title="redes sociales">
                 </figure>
                 <section>
                     <h2>Simon Sein Infográfico</h2>
@@ -38,13 +38,13 @@
             <div class="content-body-line redes">
                 <section>
                     <figure>
-                        <img src="images/redes/redes1.jpg">
+                        <img src="images/redes/redes1.jpg" alt="Simon sein" title="Simon sein">
                         <section><p>Simon sein</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/redes/redes2.jpg">
+                        <img src="images/redes/redes2.jpg" alt="CET Colsubsidio" title="CET Colsubsidio">
                         <section><p>CET colsubsidio</p></section>
                     </figure>
                 </section>

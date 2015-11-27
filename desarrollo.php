@@ -8,7 +8,7 @@
             <div class="content-sub-menu">
                 <figure>
                     <a href="marketing.php">
-                        <img src="images/tv.png">
+                        <img src="images/tv.png" alt="tv" title="tv">
                     </a>
                 </figure>
                 <a href="pantalla.php" style="line-height: 1; padding-top: 11px; ">Pantallas de comunicación digital</a>
@@ -23,7 +23,7 @@
             <div class="pop-up-content pop-up-desarrollo">
                 <span >x</span>
                 <figure>
-                    <img id="VideoPlayer"  src="images/pantallas/pantallas1.jpg" >
+                    <img id="VideoPlayer"  src="images/pantallas/pantallas1.jpg" alt="Simon Sein Infográfico" title="Simon Sein Infográfico" >
                 </figure>
                 <section>
                     <h2>Simon Sein Infográfico</h2>
@@ -38,32 +38,32 @@
             <div class="content-body-line desarrollo">
                 <section>
                     <figure>
-                        <img src="images/desarrollo/desarrollo1.jpg">
+                        <img src="images/desarrollo/desarrollo1.jpg" alt="Trianon" title="Trianon">
                         <section><p>Trianon</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/desarrollo/desarrollo2.jpg">
+                        <img src="images/desarrollo/desarrollo2.jpg" alt="CONEX Chía" title="CONEX Chía">
                         <section><p>CONEX Chía</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
 
-                        <img src="images/desarrollo/desarrollo3.jpg">
+                        <img src="images/desarrollo/desarrollo3.jpg" alt="Chía del futuro" title="Chía del futuro">
                         <section><p>Chía del futuro</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/desarrollo/desarrollo4.jpg">
+                        <img src="images/desarrollo/desarrollo4.jpg" alt="Contexto urbano" title="Contexto urbano">
                         <section><p>Cotexto urbano</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/desarrollo/desarrollo5.jpg">
+                        <img src="images/desarrollo/desarrollo5.jpg" alt="Vivienda Colsubsidio" title="Vivienda Colsubsidio">
                         <section><p>Vivienda colsubsidio</p></section>
                     </figure>
                 </section>

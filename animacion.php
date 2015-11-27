@@ -8,7 +8,7 @@
             <div class="content-sub-menu">
                 <figure>
                     <a href="audiovisual.php">
-                        <img src="images/camara.png">
+                        <img src="images/camara.png" alt="camara" title="camara">
                     </a>
                 </figure>
                 <a href="reels.php" >Reels</a>
@@ -40,13 +40,13 @@
             <div class="content-body-line animacion">
                 <section>
                     <figure>
-                        <img src="images/animacion/animacion1.png">
+                        <img src="images/animacion/animacion1.png" alt="video con animacion" title="Animación">
                         <section><p>Animación</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/animacion/animacion2.jpg">
+                        <img src="images/animacion/animacion2.jpg" alt="3D" title="3D">
                         <section><p>3D</p></section>
                     </figure>
                 </section>

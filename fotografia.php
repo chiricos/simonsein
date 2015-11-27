@@ -8,7 +8,7 @@
             <div class="content-sub-menu">
                 <figure>
                     <a href="audiovisual.php">
-                        <img src="images/camara.png">
+                        <img src="images/camara.png" alt="camara" title="camara">
                     </a>
                 </figure>
                 <a href="reels.php" >Reels</a>
@@ -25,7 +25,7 @@
             <div class="pop-up-content pop-up-fotografia">
                 <span >x</span>
                 <figure>
-                    <img id="VideoPlayer" src="images/fotografia/fotografia1.jpg" />
+                    <img id="VideoPlayer" src="images/fotografia/fotografia1.jpg" alt="fotografia" title="fotografia"/>
                 </figure>
                 <section>
                     <h2></h2>
@@ -40,25 +40,25 @@
             <div class="content-body-line fotografia">
                 <section>
                     <figure>
-                        <img src="images/fotografia/fotografia1.jpg">
+                        <img src="images/fotografia/fotografia1.jpg" alt="FOTOGRAFÍA" title="FOTOGRAFÍA">
                         <section><p>FOTOGRAFÍA</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/fotografia/fotografia2.jpg">
+                        <img src="images/fotografia/fotografia2.jpg" alt="FOTOGRAFÍA" title="FOTOGRAFÍA">
                         <section><p>FOTOGRAFÍA</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/fotografia/fotografia3.jpg">
+                        <img src="images/fotografia/fotografia3.jpg" alt="FOTOGRAFÍA" title="FOTOGRAFÍA">
                         <section><p>FOTOGRAFÍA</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/fotografia/fotografia4.jpg">
+                        <img src="images/fotografia/fotografia4.jpg" alt="FOTOGRAFÍA" title="FOTOGRAFÍA">
                         <section><p>FOTOGRAFÍA</p></section>
                     </figure>
                 </section>

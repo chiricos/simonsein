@@ -8,7 +8,7 @@
             <div class="content-sub-menu">
                 <figure>
                     <a href="marketing.php">
-                        <img src="images/tv.png">
+                        <img src="images/tv.png" alt="tv" title="tv">
                     </a>
                 </figure>
                 <a href="pantalla.php" style="line-height: 1; padding-top: 11px; color:red;">Pantallas de comunicación digital</a>
@@ -23,7 +23,7 @@
             <div class="pop-up-content pop-up-pantallas">
                 <span >x</span>
                 <figure>
-                    <img id="VideoPlayer"  src="images/pantallas/pantallas1.jpg" >
+                    <img id="VideoPlayer"  src="images/pantallas/pantallas1.jpg" alt="pantallas" title="pantallas">
                 </figure>
                 <section>
                     <h2>Simon Sein Infográfico</h2>
@@ -38,25 +38,25 @@
             <div class="content-body-line pantallas">
                 <section>
                     <figure>
-                        <img src="images/pantallas/pantallas1.jpg">
+                        <img src="images/pantallas/pantallas1.jpg" alt="Pantallas táctiles" title="Pantallas táctiles">
                         <section><p>Pantallas táctiles</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/pantallas/pantallas2.jpg">
+                        <img src="images/pantallas/pantallas2.jpg" alt="Pantallas táctiles" title="Pantallas táctiles">
                         <section><p>Pantallas táctiles</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/pantallas/pantallas3.jpg">
+                        <img src="images/pantallas/pantallas3.jpg" alt="Pantallas táctiles" title="Pantallas táctiles">
                         <section><p>Pantallas táctiles</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/pantallas/pantallas4.jpg">
+                        <img src="images/pantallas/pantallas4.jpg" alt="Pantallas táctiles" title="Pantallas táctiles">
                         <section><p>Pantallas táctiles</p></section>
                     </figure>
                 </section>

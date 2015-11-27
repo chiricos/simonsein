@@ -8,7 +8,7 @@
             <div class="content-sub-menu">
                 <figure>
                     <a href="marketing.php">
-                        <img src="images/tv.png">
+                        <img src="images/tv.png" alt="tv" title="tv">
                     </a>
                 </figure>
                 <a href="pantalla.php" style="line-height: 1; padding-top: 11px;">Pantallas de comunicación digital</a>
@@ -22,7 +22,7 @@
             <div class="pop-up-content pop-up-marketing">
                 <span >x</span>
                 <figure>
-                    <img id="VideoPlayer1"  src="images/pantallas/pantallas1.jpg" >
+                    <img id="VideoPlayer1"  src="images/pantallas/pantallas1.jpg" alt="video" title="video">
                 </figure>
                 <section>
                     <h2>Simon Sein Infográfico</h2>
@@ -37,31 +37,31 @@
             <div class="content-body-line marketing">
                 <section>
                     <figure>
-                        <img src="images/pantallas/pantallas1.jpg">
+                        <img src="images/pantallas/pantallas1.jpg" alt="Pantallas" title="Pantallas táctiles">
                         <section><p>Pantallas táctiles</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/pantallas/pantallas2.jpg">
+                        <img src="images/pantallas/pantallas2.jpg" alt="Pantallas táctiles" title="Pantallas táctiles">
                         <section><p>Pantallas táctiles</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/pantallas/pantallas3.jpg">
+                        <img src="images/pantallas/pantallas3.jpg" alt="Pantallas táctiles" title="Pantallas táctiles">
                         <section><p>Pantallas táctiles</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/pantallas/pantallas4.jpg">
+                        <img src="images/pantallas/pantallas4.jpg" alt="Pantallas táctiles" title="Pantallas táctiles">
                         <section><p>Pantallas táctiles</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/aplicaciones/aplicaciones1.jpg">
+                        <img src="images/aplicaciones/aplicaciones1.jpg" alt="DeShopping" title="DeShopping">
                         <section><p>De shopping</p></section>
                     </figure>
                 </section>
@@ -69,7 +69,7 @@
             <div class="pop-up-content pop-up-marketing">
                 <span >x</span>
                 <figure>
-                    <img id="VideoPlayer3"  src="images/pantallas/pantallas2.jpg" >
+                    <img id="VideoPlayer3"  src="images/pantallas/pantallas2.jpg" alt="video" title="video">
                 </figure>
                 <section>
                     <h2>Simon Sein Infográfico</h2>
@@ -83,31 +83,31 @@
             <div class="content-body-line marketing">
                 <section>
                     <figure>
-                        <img src="images/aplicaciones/aplicaciones2.jpg">
+                        <img src="images/aplicaciones/aplicaciones2.jpg" alt="De Shopping" title="De Shopping">
                         <section><p>De shopping</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/aplicaciones/aplicaciones3.jpg">
+                        <img src="images/aplicaciones/aplicaciones3.jpg" alt="De Shopping" title="De Shopping">
                         <section><p>De shopping</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/aplicaciones/aplicaciones4.jpg">
+                        <img src="images/aplicaciones/aplicaciones4.jpg" alt="De Shopping" title="De Shopping">
                         <section><p>De shopping</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/redes/redes1.jpg">
+                        <img src="images/redes/redes1.jpg" alt="Simon Sein" title="Simon Sein">
                         <section><p>Simon sein</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/redes/redes2.jpg">
+                        <img src="images/redes/redes2.jpg" alt="CET Colsubsidio" title="CET Colsubsidio">
                         <section><p>CET colsubsidio</p></section>
                     </figure>
                 </section>
@@ -115,7 +115,7 @@
             <div class="pop-up-content pop-up-marketing">
                 <span >x</span>
                 <figure>
-                    <img id="VideoPlayer5"  src="images/pantallas/pantallas1.jpg" >
+                    <img id="VideoPlayer5"  src="images/pantallas/pantallas1.jpg" alt="video" title="video">
                 </figure>
                 <section>
                     <h2>Simon Sein Infográfico</h2>
@@ -129,32 +129,32 @@
             <div class="content-body-line marketing">
                 <section>
                     <figure>
-                        <img src="images/desarrollo/desarrollo1.jpg">
+                        <img src="images/desarrollo/desarrollo1.jpg" alt="Trianon" title="Trianon">
                         <section><p>Trianon</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/desarrollo/desarrollo2.jpg">
+                        <img src="images/desarrollo/desarrollo2.jpg" alt="CONEX Chía" title="CONEX Chía">
                         <section><p>CONEX Chía</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
 
-                        <img src="images/desarrollo/desarrollo3.jpg">
+                        <img src="images/desarrollo/desarrollo3.jpg" alt="Chía del futuro" title="Chía del futuro">
                         <section><p>Chía del futuro</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/desarrollo/desarrollo4.jpg">
+                        <img src="images/desarrollo/desarrollo4.jpg" alt="Contexto urbano" title="Contexto urbano">
                         <section><p>Cotexto urbano</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/desarrollo/desarrollo5.jpg">
+                        <img src="images/desarrollo/desarrollo5.jpg" alt="Vivienda Colsubsidio" title="Vivienda Colsubsidio">
                         <section><p>Vivienda colsubsidio</p></section>
                     </figure>
                 </section>

@@ -15,7 +15,7 @@
             <div class="content-sub-menu">
                 <figure>
                     <a href="contacto.php">
-                        <img src="images/buzon.png">
+                        <img src="images/buzon.png" alt="buzon" title="buzon">
                     </a>
                 </figure>
 
@@ -94,9 +94,9 @@
                         (57 1) 757 0236, (57 1) 467 3162, (57 1) 467 3161
                     </p>
                     <p>
-                           <a href="https://twitter.com/SimonSein_Ltda" target="_blank"><img src="images/twitter.png"></a>
-                            <a href="https://www.facebook.com/simon.sein.31?fref=ts" target="_blank"><img src="images/facebook.png"></a>
-                           <a href="https://www.youtube.com/channel/UC5cDmU27ooIA5i-vbiey71g" target="_blank"><img src="images/youtube.png"></a>
+                           <a href="https://twitter.com/SimonSein_Ltda" target="_blank"><img src="images/twitter.png" alt="logo-twitter" title="twitter"></a>
+                            <a href="https://www.facebook.com/simon.sein.31?fref=ts" target="_blank"><img src="images/facebook.png" alt="logo-facebook" title="facebook"></a>
+                           <a href="https://www.youtube.com/channel/UC5cDmU27ooIA5i-vbiey71g" target="_blank"><img src="images/youtube.png" alt="logo-youtube" title="youtube"></a>
                     </p>
 
                 </div>

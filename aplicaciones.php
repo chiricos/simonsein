@@ -8,7 +8,7 @@
             <div class="content-sub-menu">
                 <figure>
                     <a href="marketing.php">
-                        <img src="images/tv.png">
+                        <img src="images/tv.png" alt="tv" title="tv">
                     </a>
                 </figure>
                 <a href="pantalla.php" style="line-height: 1; padding-top: 11px; ">Pantallas de comunicación digital</a>
@@ -23,7 +23,7 @@
             <div class="pop-up-content pop-up-aplicaciones">
                 <span >x</span>
                 <figure>
-                    <img id="VideoPlayer"  src="images/pantallas/pantallas1.jpg" >
+                    <img id="VideoPlayer"  src="images/pantallas/pantallas1.jpg" alt="pantallas" title="pnatallas">
                 </figure>
                 <section>
                     <h2>Simon Sein Infográfico</h2>
@@ -38,25 +38,25 @@
             <div class="content-body-line aplicaciones">
                 <section>
                     <figure>
-                        <img src="images/aplicaciones/aplicaciones1.jpg">
+                        <img src="images/aplicaciones/aplicaciones1.jpg" alt="aplicacion movil de shopping" title="deshopping">
                         <section><p>De shopping</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/aplicaciones/aplicaciones2.jpg">
+                        <img src="images/aplicaciones/aplicaciones2.jpg" alt="aplicacion movil de shopping" title="deshopping">
                         <section><p>De shopping</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/aplicaciones/aplicaciones3.jpg">
+                        <img src="images/aplicaciones/aplicaciones3.jpg" alt="aplicacion movil de shopping" title="deshopping">
                         <section><p>De shopping</p></section>
                     </figure>
                 </section>
                 <section>
                     <figure>
-                        <img src="images/aplicaciones/aplicaciones4.jpg">
+                        <img src="images/aplicaciones/aplicaciones4.jpg" alt="aplicacion movil de shopping" title="deshopping">
                         <section><p>De shopping</p></section>
                     </figure>
                 </section>
