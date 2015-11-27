@@ -135,10 +135,10 @@
 
                 <section>
                     <figure>
-                        <img src="images/clientes/15.png" alt="SuperNotariado" title="SuperNotariado">
+                        <img src="images/clientes/15.png" alt="Quince obras" title="Quince obras">
                     </figure>
                     <div>
-                        <p>SuperNotariado</p>
+                        <p>Quince obras</p>
                         <a href="">Ver Proyectos</a>
                     </div>
                 </section>
