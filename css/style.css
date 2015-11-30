@@ -981,6 +981,7 @@ media de 500
         background: black;
         height: 100%!important;
         margin-top: 60px;
+        overflow: scroll;
         position: fixed;
         top: 0%;
         z-index: 2;
