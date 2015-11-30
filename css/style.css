@@ -931,19 +931,15 @@ media de 800
     }
 
     .slider{
-        width: 75%;
+        width: 90%;
     }
 
     .campañas-slider{
         background: black;
-        height: 100%!important;
         margin-top: 60px;
-        overflow: scroll;
-        opacity: 1;
         position: fixed;
         top: 0;
         z-index: 2;
-        width: 100%;
 
 
     }
