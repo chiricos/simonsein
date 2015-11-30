@@ -882,7 +882,9 @@ media de 800
     }
 
     .pop-up-content > figure{
-        width: 85%;
+        text-align: start;
+        height: 200px;
+        width: 72%;
     }
 
     .pop-up-content > section > p{
@@ -963,11 +965,12 @@ media de 500
 
     .pop-up-content{
         background: black;
-        padding-bottom: 40px;
+        height: 100%!important;
+        margin-top: 60px;
         position: fixed;
-        top: 10%;
+        top: 0%;
         z-index: 2;
-
+        width: 100%;
     }
 
     .pop-up-content > span{
