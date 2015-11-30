@@ -13,7 +13,7 @@
                     </figure>
                     <div>
                         <p>SrPack</p>
-                        <a href="">Ver Proyectos</a>
+
                     </div>
                 </section>
 
@@ -23,7 +23,6 @@
                     </figure>
                     <div>
                         <p>4-72</p>
-                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -33,7 +32,6 @@
                     </figure>
                     <div>
                         <p>Servientrega</p>
-                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -43,7 +41,6 @@
                     </figure>
                     <div>
                         <p>Colsubsidio</p>
-                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -54,7 +51,6 @@
                     </figure>
                     <div>
                         <p>CET Colsubsidio</p>
-                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -64,7 +60,6 @@
                     </figure>
                     <div>
                         <p>Museo de los niños</p>
-                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -74,7 +69,6 @@
                     </figure>
                     <div>
                         <p>Ministerio de educación</p>
-                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -84,7 +78,6 @@
                     </figure>
                     <div>
                         <p>Zuana</p>
-                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -97,7 +90,6 @@
                     </figure>
                     <div>
                         <p>Contexto urbano</p>
-                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -107,7 +99,6 @@
                     </figure>
                     <div>
                         <p>deShopping</p>
-                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -117,7 +108,6 @@
                     </figure>
                     <div>
                         <p>C&CO</p>
-                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -127,7 +117,6 @@
                     </figure>
                     <div>
                         <p>SuperNotariado</p>
-                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
@@ -139,7 +128,6 @@
                     </figure>
                     <div>
                         <p>Quince obras</p>
-                        <a href="">Ver Proyectos</a>
                     </div>
                 </section>
 
