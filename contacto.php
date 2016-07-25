@@ -91,7 +91,7 @@
                         3144834705, 3125923363, 3134585205
                     </p>
                     <p>
-                        (57 1) 757 0236, (57 1) 467 3162, (57 1) 467 3161
+                        312 592 3363 ,  313 458 5205, (57 1) 467 3162, (57 1) 467 3161
                     </p>
                     <p>
                            <a href="https://twitter.com/SimonSein_Ltda" target="_blank"><img src="images/twitter.png" alt="logo-twitter" title="twitter"></a>
