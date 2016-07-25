@@ -88,10 +88,10 @@
                         Teléfonos:
                     </p>
                     <p>
-                        3144834705, 3125923363, 3134585205
+                         3125923363, 3134585205
                     </p>
                     <p>
-                        312 592 3363 ,  313 458 5205, (57 1) 467 3162, (57 1) 467 3161
+                        (57 1) 467 3162, (57 1) 467 3161
                     </p>
                     <p>
                            <a href="https://twitter.com/SimonSein_Ltda" target="_blank"><img src="images/twitter.png" alt="logo-twitter" title="twitter"></a>
